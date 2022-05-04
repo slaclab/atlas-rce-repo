@@ -1,0 +1,132 @@
+Package: linux-headers-5.15.0-slac-arm64
+Source: linux-upstream
+Version: 5.15.0-slac-arm64-1
+Architecture: arm64
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 45320
+Filename: ./linux-headers-5.15.0-slac-arm64_5.15.0-slac-arm64-1_arm64.deb
+Size: 7605920
+MD5sum: f4ca3dd614fe010ddcc57c5e6ce34394
+SHA1: 691238a0f62fb0d6757a36c9a4c1725c3511b0ba
+SHA256: d7386bcc6f851d4a9cd172e334e559368bc12cf3e3e921f03333403c4b127168
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.15.0-slac-arm64 on arm64
+ This package provides kernel header files for 5.15.0-slac-arm64 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.15.0-slac-armhf
+Source: linux-upstream
+Version: 5.15.0-slac-armhf-1
+Architecture: armhf
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 46059
+Filename: ./linux-headers-5.15.0-slac-armhf_5.15.0-slac-armhf-1_armhf.deb
+Size: 7721344
+MD5sum: 7a1e2390f7c0a36e77ed05c6f3945c62
+SHA1: fa327baf782fb9609717ec28d23c681afc9ce445
+SHA256: 4648f9bc6dcc8c2536b44d45e20e495ac098fa71f4fb16366bb7b437b4a58cd2
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.15.0-slac-armhf on armhf
+ This package provides kernel header files for 5.15.0-slac-armhf on armhf
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-5.15.0-slac-arm64
+Source: linux-upstream
+Version: 5.15.0-slac-arm64-1
+Architecture: arm64
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 18828
+Filename: ./linux-image-5.15.0-slac-arm64_5.15.0-slac-arm64-1_arm64.deb
+Size: 9943084
+MD5sum: e87d3d5ecc8540fec55e10cca0384a6f
+SHA1: 2bade0920ec04e9c26b407819c53f81f0f8ba05e
+SHA256: b354f385189f47ebd46de3b1c1ec489c2e8fb6b692e5379273eb4504ce426fe9
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.15.0-slac-arm64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.0-slac-arm64.
+
+Package: linux-image-5.15.0-slac-arm64-dbg
+Source: linux-upstream
+Version: 5.15.0-slac-arm64-1
+Architecture: arm64
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 484414
+Filename: ./linux-image-5.15.0-slac-arm64-dbg_5.15.0-slac-arm64-1_arm64.deb
+Size: 99068404
+MD5sum: bdc1ae0655801e5ea21d24aa570f8e26
+SHA1: 4b8dc58a1ff8dd888ddcbceada8d5303792b17d4
+SHA256: 7abc80ac2dbb6ed21a1ba9d1e16660750a891a980e6c930ec349baabb6d7087d
+Section: debug
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel debugging symbols for 5.15.0-slac-arm64
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-5.15.0-slac-armhf
+Source: linux-upstream
+Version: 5.15.0-slac-armhf-1
+Architecture: armhf
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 10770
+Filename: ./linux-image-5.15.0-slac-armhf_5.15.0-slac-armhf-1_armhf.deb
+Size: 5650504
+MD5sum: 9a2f8d6adeed7575362a97de9d259517
+SHA1: a69dc2b860ec84b2619b41a92144173fce736572
+SHA256: 0bb2ee135e8f978868c6b1f87c3861d65d064f77424e1a4a2077e2cba29170d1
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.15.0-slac-armhf
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.0-slac-armhf.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 5.15.0-slac-arm64-1
+Architecture: arm64
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 6161
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_5.15.0-slac-arm64-1_arm64.deb
+Size: 1186108
+MD5sum: f5825bbafe83afc2576ae27591476b44
+SHA1: a0d75ce418709d6e627795fc3fd173e717e36142
+SHA256: 46182c543905ac53d50a0eae8f8902453aa6ce44ef628d09ce1f7b7d68a644dc
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 5.15.0-slac-armhf-1
+Architecture: armhf
+Maintainer: wittgen <wittgen@30cea3c037e0>
+Installed-Size: 6120
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_5.15.0-slac-armhf-1_armhf.deb
+Size: 1173284
+MD5sum: ba3c4323854d00f029c8b41ec410cf07
+SHA1: 3c9f240c48693d00cac0ea85bed38728325ee65b
+SHA256: 5c2dabb0ede362ff3dca6d70540c776e405e6185f9449052a9cc2abb53715fd7
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
